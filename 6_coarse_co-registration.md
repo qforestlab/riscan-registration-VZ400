@@ -183,6 +183,6 @@ Now the upright scan has been very coarsly co-registered. To indicate this:
 12. Right-click the scan position.
 13. Click *Registered*.
 
-Marking the point clouds as "(co-)registered is required to perform fine co-registration.
+Marking the point clouds as (co-)registered is required to perform fine co-registration.
 
 
