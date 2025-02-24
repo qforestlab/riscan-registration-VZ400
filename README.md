@@ -1,6 +1,6 @@
-# Manual for the co-registration of RIEGL VZ400 terrestrial laser scanning data in RiSCAN PRO
+# Manual for the co-registration of RIEGL VZ-400 terrestrial laser scanning data in RiSCAN PRO
 
-Within this manual we will use the RIEGL RiSCAN PRO software to co-register TLS data collected with a RIEGL VZ-400 scanner in combination with reflectors. If you have not yet installed the RiSCAN PRO software check the installation manual (insert link). 
+Within this manual we will use the RIEGL RiSCAN PRO software to co-register TLS data collected with a RIEGL VZ-400 scanner in combination with reflectors. If you have not yet installed the RiSCAN PRO software check the installation manual at https://github.com/qforestlab/riscan_general. 
 
 This manual works best after reading it through and receiving a demo of this process on one of the computers at the office and then using it to independently process your data. Contact Louise.Terryn@UGent.be for more info. 
 
