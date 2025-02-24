@@ -13,12 +13,12 @@ This is also essential for your data management which is compulsory in Q-ForestL
 #### First way to save SOPs
 1. Click on *Registration*.
 2. Click on *Multiple SOP export…*.
-3. Check the *Export complete 4x4 matrix as *.DAT*. Uncheck the other options.
+3. Check the *Export complete 4x4 matrix as .DAT*. Uncheck the other options.
 4. Click *OK*.
 
 ![RiSCAN_PRO_project](./img/08_save_combine-0.png)
 
-If you left the target folder unchanged then the SOP files will end up in the project folder (*.RiSCAN)
+If you left the target folder unchanged then the SOP files will end up in the project folder (*.RiSCAN).
 
 ![RiSCAN_PRO_project](./img/08_save_combine-1.png)
 
