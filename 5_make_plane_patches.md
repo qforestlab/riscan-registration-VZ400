@@ -11,8 +11,8 @@ In order to perform the fine co-registration using the MSA algorithm we first ne
 
 ![RiSCAN_PRO_project](./img/05_make_plane_patches-1.png)
 
-1. Default parameters are generally good enough for co-registration of TLS data, click *Restore default* to make sure the parameters are the default ones.
-2. Click *OK*.
+4. Default parameters are generally good enough for co-registration of TLS data, click *Restore default* to make sure the parameters are the default ones.
+5. Click *OK*.
 
 ![RiSCAN_PRO_project](./img/05_make_plane_patches-2.png)
 

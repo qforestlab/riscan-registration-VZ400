@@ -2,7 +2,7 @@
 After the coarse co-registration, the point clouds are matching but there's still an error on this. To improve the co-registration (reduce this error), we use the MSA algorithm which uses plane patches to match the different scans more closely. 
 This can be done after one or multiple scan positions are coarsely registered. The next slides are based on doing the fine registration after one scan position has been coarsely registered.
 
-This shows you an example of the error which may be left after coarse co-registration. See how the point clouds of the two scanpositions (white verus blue color) are not matching.
+This shows you an example of the error which may be left after coarse co-registration. See how the point clouds of the two scan positions (white verus blue color) are not matching.
 ![RiSCAN_PRO_project](./img/07_fine_co-registration-0.png)
 
 ## Steps 
@@ -13,7 +13,7 @@ This shows you an example of the error which may be left after coarse co-registr
 ![RiSCAN_PRO_project](./img/07_fine_co-registration-1.png)
 
 4. Make sure the registered scan positions are activated by selecting them and right-click.
-5. Click *Activate*. A check symbol will apear left next to the scan (see next slide).
+5. Click *Activate*. A check symbol will apear left next to the scan.
 6. Make sure the other scan positions which haven't been registered yet are deactivated. If they are activated (checked) do step 1 and click *Deactivate*.
 
 ![RiSCAN_PRO_project](./img/07_fine_co-registration-2.png)
@@ -53,7 +53,7 @@ It can be good to visualise your point clouds (ScanPos001 and ScanPos002 in this
 
 17. Generally an *Error (StdDev) [m]* </= 1 cm is good. So you can reduce the *Search radius* to approximately 2 times the error. 
 18. Click *Calculate*.
-19. Repeat the process till the co-registration looks good/doesn't really change anymore.
+19. Repeat the process untill the co-registration looks good/doesn't really change anymore.
 
 ![RiSCAN_PRO_project](./img/07_fine_co-registration-10.png)
 
@@ -64,7 +64,10 @@ It can be good to visualise your point clouds (ScanPos001 and ScanPos002 in this
 
 ![RiSCAN_PRO_project](./img/07_fine_co-registration-11.png)
 
-Now you repeat the coarse and fine registration steps with the next scan position till all the scan positions are finely co-registered.
+Now you repeat the coarse and fine registration steps with the next scan position untill all the scan positions are finely co-registered.
+
+### Final fine co-registration
+
 Because of this sequential process errors can propagate towards the end of the scan positions. Therefore it's advised to run MSA algorithm once more on all the scan positions.
 
 24. Open MSA (see steps 1-3).
@@ -76,6 +79,7 @@ Because of this sequential process errors can propagate towards the end of the s
 ![RiSCAN_PRO_project](./img/07_fine_co-registration-12.png)
 
 It is important to visually check the results of the final co-registration. 
+
 29. Visualise all point clouds in different colors (see previous steps).
 30. Set *Top view*.
 31. Set *Orthogonal view*.
@@ -102,4 +106,6 @@ When you see ghosting effects (an object is in the point cloud multiple times on
 
 ![RiSCAN_PRO_project](./img/07_fine_co-registration-16.png)
 
+You can figure out which scan positions are showing this ghosting by looking at the point clouds, hiding some scan positions (in the object inspector) and seeing if the ghosting effect disappears. 
 
+![RiSCAN_PRO_project](./img/07_fine_co-registration-17.png)

@@ -1,5 +1,5 @@
 # Import and convert 
-Before we can start co-registering the scans, the raw data needs to be imported and converted in RiSCAN PRO. This will create a *.RiSCAN folder separate from the raw data folder (which will not be altered). 
+Before we can start co-registering the scans, the raw data needs to be imported and converted in *RiSCAN PRO*. This will create a *.RiSCAN folder separate from the raw data folder (which will not be altered). 
 
 ![RiSCAN_PRO_project](./img/02_import_convert-0.png)
 
@@ -31,11 +31,11 @@ Before we can start co-registering the scans, the raw data needs to be imported 
 
 ![RiSCAN_PRO_project](./img/02_import_convert-5.png)
 
-12. When the import progress is 100% click Close.
+12. When the import progress is 100% click *Close*.
 
 ![RiSCAN_PRO_project](./img/02_import_convert-6.png)
 
-In the Project manager tab you can find all the data and objects. 
+In the *Project manager* tab you can find all the data and objects. 
 
 13. The most important folder is *SCANS*.
 14. There you can find all the scan positions (*ScanPosXXX*).
@@ -62,7 +62,7 @@ Before co-registration of the different scan positions we first determine the co
 18. Right-click *SOP*.
 19. Click *Calculate via inclination sensors...*. 
 20. Make sure it is set to *Use reference scan*.
-21. Click *next* & *OK*.
+21. Click *Next* & *OK*.
 
 ![RiSCAN_PRO_project](./img/02_import_convert-11.png)
 

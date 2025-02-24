@@ -1,7 +1,7 @@
 # Find reflectors
 In order to perform the coarse co-registration the reflectors placed in the forest need to be identified in the different scans.
 
-![RiSCAN_PRO_project](./img/04_find_reflectors-0.png)
+![RiSCAN_PRO_project](./img/04_find_reflectors-0.PNG)
 
 ## Steps
 

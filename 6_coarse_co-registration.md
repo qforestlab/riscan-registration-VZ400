@@ -16,6 +16,8 @@ While doing this coarse co-registration we follow the same sequence as how the s
 
 ![RiSCAN_PRO_project](./img/06_coarse_co-registration-1.gif)
 
+## Steps
+
 1. We want to co-register/align ScanPos002 to ScanPos001 which is our registered reference. The *globe symbol* indicates that this scan position has been registered.
 2. Double-click *TPL* under ScanPos002. 
 3. Click on *Find corresponding points...*.
@@ -30,7 +32,7 @@ While doing this coarse co-registration we follow the same sequence as how the s
 
 7. This gives you all the solutions found with the first one usually the best one. It says it could match 12 tiepoints. This is likely to be a good solution. 
 
-To be sure you can visualise the point clouds of ScanPos001 and ScanPos002 to confirm (see next slides). OR if you know the pattern of the scans you could also just visualise the SOPs (select them and drop them into the viewer).
+To be sure you can visualise the point clouds of ScanPos001 and ScanPos002 to confirm (see visualisation intermezzo). OR if you know the pattern of the scans you could also just visualise the SOPs (select them and drop them into the viewer).
 
 ![RiSCAN_PRO_project](./img/06_coarse_co-registration-4.png)
 
@@ -43,10 +45,10 @@ Visualising the point clouds:
 
 ![RiSCAN_PRO_project](./img/06_coarse_co-registration-5.png)
 
-4. Choose the setting Single color.
-5. Click OK.
-6. Click Switch view type.
-7. Click Switch to Single color mode. This will show the point clouds of different scan positions in different colors.
+4. Choose the setting *Single color*.
+5. Click *OK*.
+6. Click *Switch view type*.
+7. Click *Switch to Single color mode*. This will show the point clouds of different scan positions in different colors.
 
 ![RiSCAN_PRO_project](./img/06_coarse_co-registration-6.png)
 
@@ -62,13 +64,14 @@ The two colors are coarsely matching meaning it is a good solution.
 
 ![RiSCAN_PRO_project](./img/06_coarse_co-registration-8.png)
 
-You can also just visualise the SOPs
+You can also just visualise the SOPs:
+
 13. Select the SOPs you want to visualise. 
 14. Drag and drop them into the grey area.
 
 ![RiSCAN_PRO_project](./img/06_coarse_co-registration-9.png)
 
-15. Click on Orthogonal view: this will give you grid lines where you can see the scan positions locations (which are 10 m apart as expected here). Moreover, even and uneven scan positions (e.g 001 and 002) are on top of eachother as these are the upright and tilted scans at one location.
+15. Click on *Orthogonal view*: this will give you grid lines where you can see the scan positions locations (which are 10 m apart as expected here). Moreover, even and uneven scan positions (e.g 001 and 002) are on top of eachother as these are the upright and tilted scans at one location.
 
 ![RiSCAN_PRO_project](./img/06_coarse_co-registration-10.png)
 
@@ -86,10 +89,12 @@ Sometimes it is impossible to coarsely co-register some scan positions using the
 
 There are two cases:
 * Problems with co-registration of the tilted scan. This can be easily fixed when the upright scan at the same location is registered.
-* Problems with co-registration of the upright scan. This is more tricky. 
+* Problems with co-registration of the upright scan.
+
+Moreover, there are different ways to do manual coarse co-registration. Here we give one option for both cases.
 
 ## Steps
-### Fixing case 1 (tilted scan) - option 1
+### Fixing case 1 (tilted scan)
 One way to manually co-register a tilted scan is by manually picking tiepoints in the upright and tilted scan at the same location.
 
 First we need to visualise the upright and tilted scan in 2D view:
@@ -101,7 +106,7 @@ First we need to visualise the upright and tilted scan in 2D view:
 3. Click *2D*.
 4. Click *Reflectance*. 
 5. Click *OK*.
-6. Right-click the point cloud of the upright scan position at the same location (so the previous scan position)
+6. Right-click the point cloud of the upright scan position at the same location (so the previous scan position).
 7. Click *View*. 
 8. Click *2D*.
 9. Click *Reflectance*.
@@ -119,7 +124,7 @@ First we need to visualise the upright and tilted scan in 2D view:
 
 Move around in the view to get a similar area in both views. Zoom in on a similar object in both views.
 
-13. Right-click on that object in one of the views
+13. Right-click on that object in one of the views.
 14. Click *Create tiepoint here*.
 15. Click *OK*.
 16. Do the same in the other view on the same object.
@@ -130,7 +135,7 @@ Move around in the view to get a similar area in both views. Zoom in on a simila
 
 Now you have created a number of additional tiepoints in both the (registered) upright scan and the unregistered tilted scan. You can go back to the coarse registration steps and try to find corresponding tiepoints again. 
 
-### Fixing case 2 (upright scan) - option 1
+### Fixing case 2 (upright scan)
 One way to fix an upright scan is by manually moving the scan position to the right spot.
 
 But before we do this we want the scan position to be “tilted” the right right way (up). This might not be the case after trying coarse registration using the tiepoints. To do this we will use the SOP of the previously registered scan position.
@@ -147,7 +152,7 @@ Now the scan position will be on the exact same position as the previous upright
 
 ![RiSCAN_PRO_project](./img/06_coarse_co-registration-18.png)
 
-5. Visualise the SOPs of all the registered scan positions in the *Orthogonal view* and put the view in *Top view*. (see previous steps). Now you can see the scan pattern. Based on this and your knowledge of the field work estimate where the scan position should approximately be. 
+5. Visualise the SOPs of all the registered scan positions in the *Orthogonal view* and put the view in *Top view*. Now you can see the scan pattern. Based on this and your knowledge of the field work estimate where the scan position should approximately be. 
 6. Right-click on the scan position you want to move under *POSITIONS* in the *Object inspector*.
 7. Click *Modify orientation & position in 3D view…*.
 
@@ -160,14 +165,24 @@ You can use a sliced view to see more clearly if the point clouds are also visua
 ![RiSCAN_PRO_project](./img/06_coarse_co-registration-20.png)
 
 9. Look for identical objects in the point cloud of the scan position you want to co-register and the already registered scan positions.
-10. Use the blue cylinder to translate (shaded area for X,Y and the arrow for Z) and rotate (the band) the scan position so it matches the other point clouds approximately.
+10. Use the blue donut to translate (shaded area for X, Y and the arrow for Z) and rotate (the band) the scan position so it matches the other point clouds approximately.
 11. Click *Apply*.
 
 ![RiSCAN_PRO_project](./img/06_coarse_co-registration-21.png)
 
-Now the upright scan has been very coarsly registered. To indicate this:
+If you don't like to work with the blue donut you can also move the point cloud using a different method. Instead of clicking on *Modify orientation & position in 3D view…* in step 7, you click on *Modify orientation & position…*.
+
+![RiSCAN_PRO_project](./img/06_coarse_co-registration-22.png)
+
+A screen pops up which gives you the option to translate and rotate the point cloud with specific offsets. First you choose which *Action* you want to perform by checking either *Translate* or *Rotate*. You define a fixed offset under *Translation offset [m]* or *Rotation offset [deg]* and then you click on one of the arrows (X, Y, Z) which will move the point cloud in that direction. Left-clicking will move it according to the offset, right-clicking will move it in the opposite direction (so you can undo what you did before). 
+
+![RiSCAN_PRO_project](./img/06_coarse_co-registration-23.png)
+
+Now the upright scan has been very coarsly co-registered. To indicate this:
+
 12. Right-click the scan position.
 13. Click *Registered*.
-14. Now use the fine registration steps (MSA1) explained in next chapter to finely co-register the scan position. 
+
+Marking the point clouds as "(co-)registered is required to perform fine co-registration.
 
 

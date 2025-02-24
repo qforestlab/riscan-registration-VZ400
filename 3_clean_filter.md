@@ -32,7 +32,7 @@ How to choose a max deviation value? Generally, we use a value between 12 and 20
 
 ![RiSCAN_PRO_project](./img/03_clean_filter-3.png)
 
-9. Select all the point clouds (see previous slides).
+9. Select all the point clouds.
 10. Right-click on the point cloud.
 11. Click on *Create pointcloud...*.
 
@@ -41,7 +41,7 @@ How to choose a max deviation value? Generally, we use a value between 12 and 20
 12. Check *by Attribute*. 
 13. Indicate *Deviation less than* 15 (this is what we use standard but can be case dependent).
 14. Check *Copy to new file*.
-15. Indicate an *Output suffix* such as _dev15 so it is clear how you created this point cloud.
+15. Indicate an *Output suffix* such as "_dev15" so it is clear how you created this point cloud.
 16. Make sure *Combine data* is **un**checked and click *OK*. 
 
 ![RiSCAN_PRO_project](./img/03_clean_filter-5.png)
@@ -68,7 +68,7 @@ Alternatively, you could also use the One-touch processing wizard to filter your
 ![RiSCAN_PRO_project](./img/03_clean_filter-8.png)
 
 In this case the filtered version of the point cloud will be the cloud indicated by arrow 1 and the points that were deleted from that point cloud are found in POINTCLOUDS (arrow 9).
-So if you use this method the next steps will have to be performed on the point cloud indicated by arrow 10. Pay attention to this as the next slides assume the previous option was used!
+So if you use this method the next steps will have to be performed on the point cloud indicated by arrow 10. Pay attention to this as the next main steps assume the previous option was used!
 
 I recommend using the previous option.
 
