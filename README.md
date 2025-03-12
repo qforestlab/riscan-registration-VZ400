@@ -27,7 +27,7 @@ The whole process consist of multiple steps:
 **1. [Preparation](1_preparation.md)**<br>
 **2. [Import & convert ](2_import_convert.md)**<br>
 **3. [Clean & filter](3_clean_filter.md)**<br>
-**4. [Find reflectors](4_find_Reflectors.md)**<br>
+**4. [Find reflectors](4_find_reflectors.md)**<br>
 **5. [Make plane patches](5_make_plane_patches.md)**<br>
 **6. [Coarse co-registration with tiepoints](6_coarse_co-registration.md)**<br>
 **7. [Fine co-registration with MSA](7_fine_co-registration.md)**<br>
