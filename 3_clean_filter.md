@@ -2,7 +2,7 @@
 ## Clean
 Sometimes (when there was wind or an error occurred during scanning in the field) multiple scans are conducted within one scan position or in separate scan positions. As we only need a single good scan, we delete the "bad" point clouds/scan positions. 
 
-The last point cloud/scan position is often the "good" one (in the example on the right the 029B will be the good one). But make sure you check by checking the field sheet and/or looking at the point cloud in the preview window (after clicking on the point cloud).
+> The last point cloud/scan position is often the "good" one (in the example on the right the 029B will be the good one). But make sure you check by checking the field sheet and/or looking at the point cloud in the preview window (after clicking on the point cloud).
 
 ![RiSCAN_PRO_project](./img/03_clean_filter-0.png)
 
