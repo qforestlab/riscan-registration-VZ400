@@ -1,9 +1,12 @@
 # Manual for the co-registration of RIEGL VZ-400 terrestrial laser scanning data in RiSCAN PRO
 
-Within this manual we will use the RIEGL RiSCAN PRO software to co-register TLS data collected with a RIEGL VZ-400 scanner in combination with reflectors. If you have not yet installed the RiSCAN PRO software check the installation manual at https://github.com/qforestlab/riscan_general. 
+Within this manual we will use the RIEGL RiSCAN PRO software to co-register TLS data collected with a RIEGL VZ-400* scanner in combination with reflectors. If you have not yet installed the RiSCAN PRO software check the installation manual at https://github.com/qforestlab/riscan_general. 
 
-> This manual works best after reading it through and receiving a demo of this process on one of the computers at the office and then using it to independently process your data. Contact Louise.Terryn@UGent.be for more info. 
-> This manual is for the VZ-400 scanner (not the VZ-400i scanner, which has upgraded hard -and software, requiring a different approach for co-registration).
+> *This manual is for the VZ-400 scanner (not the VZ-400i scanner, which has upgraded hard -and software, requiring a different approach for co-registration).
+
+> NOTE: This manual works best after reading it through and receiving a demo of this process on one of the computers at the office and then using it to independently process your data. Contact Louise.Terryn@UGent.be for more info. 
+
+> The following is based on RIEGL RiSCAN PRO v2.20
 
 ## Principles of co-registration
 When collecting TLS data of a forest plot, we often collect scans at multiple scan locations/positions to be able to capture the complete forest structure. This results in multiple separate scans/point clouds collected at different locations in the forest, each in their own coordinate system.
