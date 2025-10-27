@@ -1,6 +1,6 @@
 # Fine co-registration with MSA
 After the coarse co-registration, the point clouds are matching but there's still an error on this. To improve the co-registration (reduce this error), we use the MSA algorithm which uses plane patches to match the different scans more closely. 
-This can be done after one or multiple scan positions are coarsely registered. The next slides are based on doing the fine registration after one scan position has been coarsely registered.
+> This can be done after one or multiple scan positions are coarsely registered. The next parts are based on doing the fine registration after one scan position has been coarsely registered.
 
 This shows you an example of the error which may be left after coarse co-registration. See how the point clouds of the two scan positions (white verus blue color) are not matching.
 ![RiSCAN_PRO_project](./img/07_fine_co-registration-0.png)
