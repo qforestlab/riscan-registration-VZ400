@@ -38,7 +38,7 @@ The CSV file created by doing the steps in the previous slide ends up in the .Ri
 ## Combine
 In a next step you might want to combine the point clouds of all the scan positions into one big point cloud. From this point cloud you can later extract trees or structural features.
 
-This combined point cloud will contain a lot of points, therefore it is often advised to downsample the point cloud. Often a downsampling resolution of 1 cm to 2 cm is used considering the file size, the characteristics of the VZ-400 scanner, and the forest.
+> This combined point cloud will contain a lot of points, therefore it is often advised to downsample the point cloud. Often a downsampling resolution of 1 cm to 2 cm is used considering the file size, the characteristics of the VZ-400 scanner, and the forest.
 
 ### Steps
 1. Select all the filtered point clouds under *POINTCLOUDS* by clicking on one and clicking on symbol. 
