@@ -32,7 +32,7 @@ While doing this coarse co-registration we follow the same sequence as how the s
 
 7. This gives you all the solutions found with the first one usually the best one. It says it could match 12 tiepoints. This is likely to be a good solution. 
 
-To be sure you can visualise the point clouds of ScanPos001 and ScanPos002 to confirm (see visualisation intermezzo). OR if you know the pattern of the scans you could also just visualise the SOPs (select them and drop them into the viewer).
+To be sure you can visualise the point clouds of ScanPos001 and ScanPos002 to confirm (see visualisation intermezzo below). OR if you know the pattern of the scans you could also just visualise the SOPs (select them and drop them into the viewer).
 
 ![RiSCAN_PRO_project](./img/06_coarse_co-registration-4.png)
 
