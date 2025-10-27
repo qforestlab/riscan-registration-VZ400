@@ -9,7 +9,7 @@ In order to perform the coarse co-registration the reflectors placed in the fore
 2. Right-click on the point clouds.
 3. Click on *Find reflectors...*.
 
-*this might not work on a froozen point cloud so select a different point cloud and try again and manually select the frozen point cloud (with ctrl + click).
+> *this might not work on a froozen point cloud so select a different point cloud and try again and manually select the frozen point cloud (with ctrl + click).
 
 ![RiSCAN_PRO_project](./img/04_find_reflectors-1.png)
 
