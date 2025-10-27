@@ -6,7 +6,7 @@ When you have finished the co-registration it is important that you make a backu
 
 This is also essential for your data management which is compulsory in Q-ForestLab.
 
-*You can also do this during the co-registration process when you want the current status of the SOPs to be back-upped. This could be useful before performing MSA on the whole plot as this might also give unwanted results and by saving the SOPs on beforehand you can easily undo the changes made. 
+> *You can also do this during the co-registration process when you want the current status of the SOPs to be back-upped. This could be useful before performing MSA on the whole plot as this might also give unwanted results and by saving the SOPs on beforehand you can easily undo the changes made. 
 
 ### Steps
 
