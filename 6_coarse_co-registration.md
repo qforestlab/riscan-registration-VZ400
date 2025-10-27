@@ -12,7 +12,7 @@ While doing this coarse co-registration we follow the same sequence as how the s
 * ScanPos004 can be linked to ScanPos001 and ScanPos002 and ScanPos003, 
 * ScanPos005 can be linked to ScanPos003 and ScanPos004, etc. 
 
-*Using the coarse co-registration algorithm, you can only link a scan position to those that previously have been registered.
+> *Using the coarse co-registration algorithm, you can only link a scan position to those that previously have been registered.
 
 ![RiSCAN_PRO_project](./img/06_coarse_co-registration-1.gif)
 
@@ -60,7 +60,7 @@ Visualising the point clouds:
 
 ![RiSCAN_PRO_project](./img/06_coarse_co-registration-7.png)
 
-The two colors are coarsely matching meaning it is a good solution.
+> The two colors are coarsely matching meaning it is a good solution.
 
 ![RiSCAN_PRO_project](./img/06_coarse_co-registration-8.png)
 
