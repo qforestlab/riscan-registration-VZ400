@@ -19,7 +19,7 @@ The co-registration process consists of two main parts:
 * The **coarse co-registration** where the reflectors (that were put in the field) are used to roughly align the scans. Often an error of a few centimeters remains on this alignment. 
 * The **fine co-registration** where that alignment is improved. For the fine/accurate co-registration of the different scan positions, an algorithm (Multi Station Adjustment – MSA*) will be used. This algorithm relies on matching plane patches derived from the various scans. 
 
-*This is different from the “Multi Station Adjustment 2” algorithm which only works for VZ i-series scanners.
+> *This is different from the “Multi Station Adjustment 2” algorithm which only works for VZ i-series scanners.
 
 ## Steps
 The whole process consist of multiple steps:
